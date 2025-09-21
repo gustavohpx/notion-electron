@@ -30,11 +30,11 @@ function createWindow(): void {
     return { action: 'deny' }
   })
 
-  registerRoute({
-    id: 'main',
-    browserWindow: mainWindow,
-    htmlFile: join(__dirname, '../renderer/index.html') // Caminho padrão do HTML
-  })
+    registerRoute({
+      id: 'main',
+      browserWindow: mainWindow,
+      htmlFile: join(__dirname, '../renderer/index.html') // Caminho padrão do HTML
+    })
 
   // HMR for renderer base on electron-vite cli.
   // Load the remote URL for development or the local html file for production.
