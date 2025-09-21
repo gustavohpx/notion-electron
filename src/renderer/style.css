@@ -1,1 +1,14 @@
-@import "tailwindcss";
+@import 'tailwindcss';
+
+@theme {
+  --color-notion-50: #ebeaed;
+  --color-notion-100: #c1bfc7;
+  --color-notion-200: #a3a0ac;
+  --color-notion-300: #797486;
+  --color-notion-400: #5f596e;
+  --color-notion-500: #37304a;
+  --color-notion-600: #322c43;
+  --color-notion-700: #272235;
+  --color-notion-800: #1e1a29;
+  --color-notion-900: #17141f;
+}
