@@ -9,7 +9,7 @@ interface LinkProps {
 export function Link({ children }: LinkProps) {
   return (
     <a
-      href="#"
+      href="#/main"
       className={clsx(
         'flex items-center text-sm gap-2 text-notion-100 hover:text-notion-50 py-1 px-3 rounded group hover:bg-notion-700',
       )}
