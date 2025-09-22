@@ -38,22 +38,22 @@ export function SearchBar() {
 
         <Command.Item className="py-3 px-4 text-notion-50 text-sm flex items-center gap-2 hover:bg-notion-700 aria-selected:!bg-notion-600">
           <File className="w-4 h-4" />
-          Untitled
+          Go Lang
         </Command.Item>
 
         <Command.Item className="py-3 px-4 text-notion-50 text-sm flex items-center gap-2 hover:bg-notion-700 aria-selected:!bg-notion-600">
           <File className="w-4 h-4" />
-          Ignite
+          JavaScript
         </Command.Item>
 
         <Command.Item className="py-3 px-4 text-notion-50 text-sm flex items-center gap-2 hover:bg-notion-700 aria-selected:!bg-notion-600">
           <File className="w-4 h-4" />
-          Discover
+          NodeJS
         </Command.Item>
 
         <Command.Item className="py-3 px-4 text-notion-50 text-sm flex items-center gap-2 hover:bg-notion-700 aria-selected:!bg-notion-600">
           <File className="w-4 h-4" />
-          Rocketseat
+          ReactJS
         </Command.Item>
       </Command.List>
     </Command.Dialog>

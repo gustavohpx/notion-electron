@@ -44,10 +44,10 @@ export function Sidebar() {
           <Navigation.Section>
             <Navigation.SectionTitle>Workspace</Navigation.SectionTitle>
             <Navigation.SectionContent>
-              <Navigation.Link>Untitled</Navigation.Link>
-              <Navigation.Link>Discover</Navigation.Link>
-              <Navigation.Link>Ignite</Navigation.Link>
-              <Navigation.Link>Rocketseat</Navigation.Link>
+              <Navigation.Link>Go Lang</Navigation.Link>
+              <Navigation.Link>JavaScript</Navigation.Link>
+              <Navigation.Link>NodeJS</Navigation.Link>
+              <Navigation.Link>ReactJS</Navigation.Link>
             </Navigation.SectionContent>
           </Navigation.Section>
         </Navigation.Root>
